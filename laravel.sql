@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 05, 2023 at 01:57 PM
+-- Generation Time: Jun 05, 2023 at 02:20 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -78,7 +78,16 @@ CREATE TABLE `employees` (
 
 INSERT INTO `employees` (`id`, `First_name`, `last_name`, `company_id`, `email`, `phone`, `created_at`, `updated_at`) VALUES
 (1, 'Rahul', 'jain', 1, 'rahul@gmail.com', '1234567890', '2023-06-05 05:17:59', '2023-06-05 05:17:59'),
-(2, 'naveen', 'meena', 3, 'naveen@gamil.com', '1254785412', '2023-06-05 06:26:45', '2023-06-05 06:26:45');
+(2, 'naveen', 'meena', 3, 'naveen@gamil.com', '1254785412', '2023-06-05 06:26:45', '2023-06-05 06:26:45'),
+(3, 'sapna', 'nama', 3, 'sapna@mail.com', '4578548778', '2023-06-05 12:07:01', '2023-06-05 12:07:01'),
+(4, 'kamal', 'kanva', 4, 'kamal@mail.com', '09565452152', '2023-06-05 12:07:30', '2023-06-05 12:07:30'),
+(5, 'jhon', 'vix', 3, 'jhon@mail.com', '4568785444', '2023-06-05 12:07:58', '2023-06-05 12:07:58'),
+(6, 'babana', 'hul', 7, 'banaban@mail.com', '7845651232', '2023-06-05 12:08:25', '2023-06-05 12:08:25'),
+(7, 'grish', 'bisnoi', 12, 'bisnoi@mail.com', '87456512321', '2023-06-05 12:09:21', '2023-06-05 12:09:21'),
+(8, 'aman', 'jain', 11, 'aman@netmail.com', '6589754651', '2023-06-05 12:09:51', '2023-06-05 12:09:51'),
+(9, 'sarthikha', 'sharma', 7, 'sarthika@gmail.com', '9865457845', '2023-06-05 12:10:27', '2023-06-05 12:10:27'),
+(10, 'test', 'data', 12, 'test@mail.com', '8965451212', '2023-06-05 12:19:38', '2023-06-05 12:19:38'),
+(11, 'Ramkishan', 'goyal', 11, 'ramkishan@gmail.com', '8956457845', '2023-06-05 12:20:15', '2023-06-05 12:20:31');
 
 -- --------------------------------------------------------
 
@@ -256,7 +265,7 @@ ALTER TABLE `companies`
 -- AUTO_INCREMENT for table `employees`
 --
 ALTER TABLE `employees`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
